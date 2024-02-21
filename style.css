@@ -1,0 +1,54 @@
+:root {
+  /* Color */
+  --clr-primary-red: hsl(0, 100%, 74%);
+  --clr-secondary-green: hsl(154, 59%, 51%);
+
+  --clr-accent-blue: hsl(248, 32%, 49%);
+
+  --clr-neutral-darkblue: hsl(249, 10%, 26%);
+  --clr-neutral-grayishblue: hsl(246, 25%, 77%);
+
+  /* Font Weight */
+  --fnt-weight-400: 400;
+  --fnt-weight-500: 500;
+  --fnt-weight-600: 600;
+  --fnt-weight-700: 700;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--clr-primary-red);
+  color: white;
+  font-weight: var(--fnt-weight-400);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* h1 */
+.title__text {
+  font-size: 2.2rem;
+  font-weight: var(--fnt-weight-700);
+  margin-bottom: 0.5em;
+  padding: 0 1em;
+}
+
+/* p */
+.description__text {
+  font-size: 1.2rem;
+  padding: 0 1em;
+  line-height: 1.8;
+  margin-bottom: 2em;
+}
